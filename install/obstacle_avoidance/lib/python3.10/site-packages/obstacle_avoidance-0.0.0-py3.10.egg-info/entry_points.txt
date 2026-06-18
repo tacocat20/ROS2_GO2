@@ -1,0 +1,3 @@
+[console_scripts]
+avoider = obstacle_avoidance.avoider:main
+

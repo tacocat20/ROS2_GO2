@@ -1,0 +1,22 @@
+[2.242s] Invoking command in '/home/krish/ros2_ws/src/go2_robot_sdk': CMAKE_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces:/home/krish/ros2_ws/install/lidar_processor_cpp PYTHONPATH=/home/krish/ros2_ws/build/go2_robot_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_robot_sdk build --build-base /home/krish/ros2_ws/build/go2_robot_sdk/build install --record /home/krish/ros2_ws/build/go2_robot_sdk/install.log --single-version-externally-managed install_data
+[2.740s] running egg_info
+[2.742s] writing ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/PKG-INFO
+[2.743s] writing dependency_links to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/dependency_links.txt
+[2.744s] writing entry points to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/entry_points.txt
+[2.745s] writing requirements to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/requires.txt
+[2.747s] writing top-level names to ../../build/go2_robot_sdk/go2_robot_sdk.egg-info/top_level.txt
+[2.757s] reading manifest file '../../build/go2_robot_sdk/go2_robot_sdk.egg-info/SOURCES.txt'
+[2.759s] adding license file 'LICENSE'
+[2.764s] writing manifest file '../../build/go2_robot_sdk/go2_robot_sdk.egg-info/SOURCES.txt'
+[2.765s] running build
+[2.765s] running build_py
+[2.773s] running install
+[2.775s] running install_lib
+[2.783s] running install_data
+[2.785s] running install_egg_info
+[2.790s] removing '/home/krish/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages/go2_robot_sdk-0.0.0-py3.10.egg-info' (and everything under it)
+[2.791s] Copying ../../build/go2_robot_sdk/go2_robot_sdk.egg-info to /home/krish/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages/go2_robot_sdk-0.0.0-py3.10.egg-info
+[2.796s] running install_scripts
+[2.844s] Installing go2_driver_node script to /home/krish/ros2_ws/install/go2_robot_sdk/lib/go2_robot_sdk
+[2.847s] writing list of installed files to '/home/krish/ros2_ws/build/go2_robot_sdk/install.log'
+[2.916s] Invoked command in '/home/krish/ros2_ws/src/go2_robot_sdk' returned '0': CMAKE_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces:/home/krish/ros2_ws/install/lidar_processor_cpp PYTHONPATH=/home/krish/ros2_ws/build/go2_robot_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_robot_sdk build --build-base /home/krish/ros2_ws/build/go2_robot_sdk/build install --record /home/krish/ros2_ws/build/go2_robot_sdk/install.log --single-version-externally-managed install_data
