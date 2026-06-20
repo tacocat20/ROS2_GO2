@@ -1,0 +1,25 @@
+[1.832s] Invoking command in '/home/krish/ros2_ws/build/lidar_processor': PYTHONPATH=/home/krish/ros2_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krish/ros2_ws/build/lidar_processor/build --no-deps symlink_data
+[2.338s] running develop
+[2.707s] running egg_info
+[2.707s] creating lidar_processor.egg-info
+[2.708s] writing lidar_processor.egg-info/PKG-INFO
+[2.708s] writing dependency_links to lidar_processor.egg-info/dependency_links.txt
+[2.708s] writing entry points to lidar_processor.egg-info/entry_points.txt
+[2.709s] writing requirements to lidar_processor.egg-info/requires.txt
+[2.709s] writing top-level names to lidar_processor.egg-info/top_level.txt
+[2.709s] writing manifest file 'lidar_processor.egg-info/SOURCES.txt'
+[2.713s] reading manifest file 'lidar_processor.egg-info/SOURCES.txt'
+[2.714s] writing manifest file 'lidar_processor.egg-info/SOURCES.txt'
+[2.778s] running build_ext
+[2.779s] Creating /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar-processor.egg-link (link to .)
+[2.804s] Installing lidar_to_pointcloud script to /home/krish/ros2_ws/install/lidar_processor/lib/lidar_processor
+[2.804s] Installing pointcloud_aggregator script to /home/krish/ros2_ws/install/lidar_processor/lib/lidar_processor
+[2.805s] 
+[2.805s] Installed /home/krish/ros2_ws/build/lidar_processor
+[2.805s] running symlink_data
+[2.805s] creating /home/krish/ros2_ws/install/lidar_processor/share/ament_index
+[2.805s] creating /home/krish/ros2_ws/install/lidar_processor/share/ament_index/resource_index
+[2.806s] creating /home/krish/ros2_ws/install/lidar_processor/share/ament_index/resource_index/packages
+[2.806s] symbolically linking /home/krish/ros2_ws/build/lidar_processor/resource/lidar_processor -> /home/krish/ros2_ws/install/lidar_processor/share/ament_index/resource_index/packages
+[2.806s] symbolically linking /home/krish/ros2_ws/build/lidar_processor/package.xml -> /home/krish/ros2_ws/install/lidar_processor/share/lidar_processor
+[2.897s] Invoked command in '/home/krish/ros2_ws/build/lidar_processor' returned '0': PYTHONPATH=/home/krish/ros2_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krish/ros2_ws/build/lidar_processor/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+[1.856s] Invoking command in '/home/krish/ros2_ws/build/speech_processor': AMENT_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces LD_LIBRARY_PATH=/home/krish/ros2_ws/install/go2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krish/ros2_ws/build/speech_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/speech_processor/lib/python3.10/site-packages:/home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krish/ros2_ws/build/speech_processor/build --no-deps symlink_data
+[2.380s] running develop
+[2.752s] running egg_info
+[2.753s] creating speech_processor.egg-info
+[2.753s] writing speech_processor.egg-info/PKG-INFO
+[2.754s] writing dependency_links to speech_processor.egg-info/dependency_links.txt
+[2.754s] writing entry points to speech_processor.egg-info/entry_points.txt
+[2.754s] writing requirements to speech_processor.egg-info/requires.txt
+[2.754s] writing top-level names to speech_processor.egg-info/top_level.txt
+[2.755s] writing manifest file 'speech_processor.egg-info/SOURCES.txt'
+[2.759s] reading manifest file 'speech_processor.egg-info/SOURCES.txt'
+[2.760s] writing manifest file 'speech_processor.egg-info/SOURCES.txt'
+[2.827s] running build_ext
+[2.827s] Creating /home/krish/ros2_ws/install/speech_processor/lib/python3.10/site-packages/speech-processor.egg-link (link to .)
+[2.829s] Installing audio_manager script to /home/krish/ros2_ws/install/speech_processor/lib/speech_processor
+[2.829s] Installing speech_synthesizer script to /home/krish/ros2_ws/install/speech_processor/lib/speech_processor
+[2.829s] Installing tts_node script to /home/krish/ros2_ws/install/speech_processor/lib/speech_processor
+[2.830s] 
+[2.830s] Installed /home/krish/ros2_ws/build/speech_processor
+[2.830s] running symlink_data
+[2.830s] creating /home/krish/ros2_ws/install/speech_processor/share/ament_index
+[2.830s] creating /home/krish/ros2_ws/install/speech_processor/share/ament_index/resource_index
+[2.831s] creating /home/krish/ros2_ws/install/speech_processor/share/ament_index/resource_index/packages
+[2.831s] symbolically linking /home/krish/ros2_ws/build/speech_processor/resource/speech_processor -> /home/krish/ros2_ws/install/speech_processor/share/ament_index/resource_index/packages
+[2.831s] symbolically linking /home/krish/ros2_ws/build/speech_processor/package.xml -> /home/krish/ros2_ws/install/speech_processor/share/speech_processor
+[2.955s] Invoked command in '/home/krish/ros2_ws/build/speech_processor' returned '0': AMENT_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces LD_LIBRARY_PATH=/home/krish/ros2_ws/install/go2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krish/ros2_ws/build/speech_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/speech_processor/lib/python3.10/site-packages:/home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krish/ros2_ws/build/speech_processor/build --no-deps symlink_data

@@ -1,0 +1,40 @@
+[3.087s] Invoking command in '/home/krish/ros2_ws/build/lidar_processor': PYTHONPATH=/home/krish/ros2_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/krish/ros2_ws/build/lidar_processor/build
+[3.747s] running develop
+[4.275s] Removing /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar-processor.egg-link (link to .)
+[4.380s] Invoked command in '/home/krish/ros2_ws/build/lidar_processor' returned '0': PYTHONPATH=/home/krish/ros2_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/krish/ros2_ws/build/lidar_processor/build
+[4.381s] Invoking command in '/home/krish/ros2_ws/src/lidar_processor': PYTHONPATH=/home/krish/ros2_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_processor build --build-base /home/krish/ros2_ws/build/lidar_processor/build install --record /home/krish/ros2_ws/build/lidar_processor/install.log --single-version-externally-managed install_data --force
+[4.994s] running egg_info
+[4.996s] writing ../../build/lidar_processor/lidar_processor.egg-info/PKG-INFO
+[4.996s] writing dependency_links to ../../build/lidar_processor/lidar_processor.egg-info/dependency_links.txt
+[4.997s] writing entry points to ../../build/lidar_processor/lidar_processor.egg-info/entry_points.txt
+[4.997s] writing requirements to ../../build/lidar_processor/lidar_processor.egg-info/requires.txt
+[4.997s] writing top-level names to ../../build/lidar_processor/lidar_processor.egg-info/top_level.txt
+[5.002s] reading manifest file '../../build/lidar_processor/lidar_processor.egg-info/SOURCES.txt'
+[5.005s] writing manifest file '../../build/lidar_processor/lidar_processor.egg-info/SOURCES.txt'
+[5.005s] running build
+[5.005s] running build_py
+[5.005s] creating /home/krish/ros2_ws/build/lidar_processor/build
+[5.006s] creating /home/krish/ros2_ws/build/lidar_processor/build/lib
+[5.006s] creating /home/krish/ros2_ws/build/lidar_processor/build/lib/lidar_processor
+[5.006s] copying lidar_processor/pointcloud_aggregator_node.py -> /home/krish/ros2_ws/build/lidar_processor/build/lib/lidar_processor
+[5.006s] copying lidar_processor/__init__.py -> /home/krish/ros2_ws/build/lidar_processor/build/lib/lidar_processor
+[5.006s] copying lidar_processor/lidar_to_pointcloud_node.py -> /home/krish/ros2_ws/build/lidar_processor/build/lib/lidar_processor
+[5.008s] running install
+[5.008s] running install_lib
+[5.012s] creating /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+[5.012s] copying /home/krish/ros2_ws/build/lidar_processor/build/lib/lidar_processor/pointcloud_aggregator_node.py -> /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+[5.012s] copying /home/krish/ros2_ws/build/lidar_processor/build/lib/lidar_processor/__init__.py -> /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+[5.012s] copying /home/krish/ros2_ws/build/lidar_processor/build/lib/lidar_processor/lidar_to_pointcloud_node.py -> /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor
+[5.013s] byte-compiling /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor/pointcloud_aggregator_node.py to pointcloud_aggregator_node.cpython-310.pyc
+[5.016s] byte-compiling /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor/__init__.py to __init__.cpython-310.pyc
+[5.017s] byte-compiling /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor/lidar_to_pointcloud_node.py to lidar_to_pointcloud_node.cpython-310.pyc
+[5.020s] running install_data
+[5.020s] copying resource/lidar_processor -> /home/krish/ros2_ws/install/lidar_processor/share/ament_index/resource_index/packages
+[5.020s] copying package.xml -> /home/krish/ros2_ws/install/lidar_processor/share/lidar_processor
+[5.021s] running install_egg_info
+[5.024s] Copying ../../build/lidar_processor/lidar_processor.egg-info to /home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages/lidar_processor-1.0.0-py3.10.egg-info
+[5.027s] running install_scripts
+[5.076s] Installing lidar_to_pointcloud script to /home/krish/ros2_ws/install/lidar_processor/lib/lidar_processor
+[5.077s] Installing pointcloud_aggregator script to /home/krish/ros2_ws/install/lidar_processor/lib/lidar_processor
+[5.079s] writing list of installed files to '/home/krish/ros2_ws/build/lidar_processor/install.log'
+[6.301s] Invoked command in '/home/krish/ros2_ws/src/lidar_processor' returned '0': PYTHONPATH=/home/krish/ros2_ws/build/lidar_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/lidar_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_processor build --build-base /home/krish/ros2_ws/build/lidar_processor/build install --record /home/krish/ros2_ws/build/lidar_processor/install.log --single-version-externally-managed install_data --force

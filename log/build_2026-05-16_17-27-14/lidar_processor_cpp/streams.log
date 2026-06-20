@@ -1,0 +1,64 @@
+[1.184s] Invoking command in '/home/krish/ros2_ws/build/lidar_processor_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake /home/krish/ros2_ws/src/lidar_processor_cpp -DCMAKE_INSTALL_PREFIX=/home/krish/ros2_ws/install/lidar_processor_cpp
+[1.203s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.406s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.423s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.496s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.503s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.516s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.661s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.666s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.731s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.884s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.959s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[2.089s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.197s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[3.615s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.628s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.998s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.015s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.027s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.328s] -- Found Qhull version 8.0.2
+[4.704s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.103s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.107s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.402s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.565s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.567s] -- Configured cppcheck include dirs: /home/krish/ros2_ws/src/lidar_processor_cpp/include
+[5.567s] -- Configured cppcheck exclude dirs and/or files: 
+[5.568s] -- Added test 'lint_cmake' to check CMake code style
+[5.571s] -- Added test 'uncrustify' to check C / C++ code style
+[5.572s] -- Configured uncrustify additional arguments: 
+[5.572s] -- Added test 'xmllint' to check XML markup files
+[5.577s] -- Configuring done
+[5.883s] -- Generating done
+[5.932s] -- Build files have been written to: /home/krish/ros2_ws/build/lidar_processor_cpp
+[6.340s] Invoked command in '/home/krish/ros2_ws/build/lidar_processor_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake /home/krish/ros2_ws/src/lidar_processor_cpp -DCMAKE_INSTALL_PREFIX=/home/krish/ros2_ws/install/lidar_processor_cpp
+[6.345s] Invoking command in '/home/krish/ros2_ws/build/lidar_processor_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --build /home/krish/ros2_ws/build/lidar_processor_cpp -- -j6 -l6
+[6.461s] [ 50%] Built target lidar_to_pointcloud_node
+[6.463s] [100%] Built target pointcloud_aggregator_node
+[6.476s] Invoked command in '/home/krish/ros2_ws/build/lidar_processor_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --build /home/krish/ros2_ws/build/lidar_processor_cpp -- -j6 -l6
+[6.480s] Invoking command in '/home/krish/ros2_ws/build/lidar_processor_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --install /home/krish/ros2_ws/build/lidar_processor_cpp
+[6.485s] -- Install configuration: ""
+[6.486s] -- Execute custom install script
+[6.488s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/lib/lidar_processor_cpp/lidar_to_pointcloud_node
+[6.488s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/lib/lidar_processor_cpp/pointcloud_aggregator_node
+[6.490s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/include//lidar_processor_cpp/lidar_to_pointcloud_node.hpp
+[6.491s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/include//lidar_processor_cpp/pointcloud_aggregator_node.hpp
+[6.491s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/ament_index/resource_index/package_run_dependencies/lidar_processor_cpp
+[6.494s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/ament_index/resource_index/parent_prefix_path/lidar_processor_cpp
+[6.495s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/ament_prefix_path.sh
+[6.495s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/ament_prefix_path.dsv
+[6.495s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/path.sh
+[6.495s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/path.dsv
+[6.495s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.bash
+[6.496s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.sh
+[6.497s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.zsh
+[6.497s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.dsv
+[6.498s] -- Symlinking: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/package.dsv
+[6.507s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/ament_index/resource_index/packages/lidar_processor_cpp
+[6.508s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/cmake/lidar_processor_cppConfig.cmake
+[6.508s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/cmake/lidar_processor_cppConfig-version.cmake
+[6.509s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/package.xml
+[6.513s] Invoked command in '/home/krish/ros2_ws/build/lidar_processor_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --install /home/krish/ros2_ws/build/lidar_processor_cpp

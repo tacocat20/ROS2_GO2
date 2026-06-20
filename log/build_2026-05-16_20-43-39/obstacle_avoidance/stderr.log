@@ -1,0 +1,5 @@
+  File "/home/krish/ros2_ws/install/obstacle_avoidance/lib/python3.10/site-packages/obstacle_avoidance/avoider.py", line 59
+    twist.angular.z = 0.0:
+                         ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,71 @@
+[1.892s] Invoking command in '/home/krish/ros2_ws/build/go2_robot_sdk': AMENT_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces LD_LIBRARY_PATH=/home/krish/ros2_ws/install/go2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krish/ros2_ws/build/go2_robot_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages:/home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krish/ros2_ws/build/go2_robot_sdk/build --no-deps symlink_data
+[2.398s] running develop
+[2.758s] running egg_info
+[2.759s] creating go2_robot_sdk.egg-info
+[2.759s] writing go2_robot_sdk.egg-info/PKG-INFO
+[2.759s] writing dependency_links to go2_robot_sdk.egg-info/dependency_links.txt
+[2.760s] writing entry points to go2_robot_sdk.egg-info/entry_points.txt
+[2.760s] writing requirements to go2_robot_sdk.egg-info/requires.txt
+[2.760s] writing top-level names to go2_robot_sdk.egg-info/top_level.txt
+[2.760s] writing manifest file 'go2_robot_sdk.egg-info/SOURCES.txt'
+[2.767s] reading manifest file 'go2_robot_sdk.egg-info/SOURCES.txt'
+[2.769s] writing manifest file 'go2_robot_sdk.egg-info/SOURCES.txt'
+[2.832s] running build_ext
+[2.832s] Creating /home/krish/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages/go2-robot-sdk.egg-link (link to .)
+[2.834s] Installing go2_driver_node script to /home/krish/ros2_ws/install/go2_robot_sdk/lib/go2_robot_sdk
+[2.834s] 
+[2.834s] Installed /home/krish/ros2_ws/build/go2_robot_sdk
+[2.835s] running symlink_data
+[2.835s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/ament_index
+[2.835s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/ament_index/resource_index
+[2.835s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/ament_index/resource_index/packages
+[2.835s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/resource/go2_robot_sdk -> /home/krish/ros2_ws/install/go2_robot_sdk/share/ament_index/resource_index/packages
+[2.835s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/package.xml -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk
+[2.836s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/launch
+[2.836s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/launch/robot_cpp.launch.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/launch
+[2.836s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/launch/mapping.launch.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/launch
+[2.836s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/launch/webrtc_web.launch.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/launch
+[2.836s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/launch/navigation.launch.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/launch
+[2.836s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/launch/robot.launch.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/launch
+[2.836s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/urdf
+[2.837s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/urdf/multi_go2.urdf -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/urdf
+[2.837s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/urdf/go2.urdf -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/urdf
+[2.837s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/urdf/go2_on_steroids.urdf -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/urdf
+[2.837s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/urdf/go2_with_realsense.urdf -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/urdf
+[2.837s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.837s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/dae/calf.dae -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.837s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/dae/foot.dae -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.838s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/dae/thigh_mirror.dae -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.838s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/dae/base.dae -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.838s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/dae/hip.dae -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.838s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/dae/thigh.dae -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.838s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/dae/calf_mirror.dae -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/dae
+[2.839s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/meshes
+[2.839s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/meshes/base.STL -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/meshes
+[2.839s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/meshes/right_d_camera.STL -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/meshes
+[2.839s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/meshes/front_d_camera.STL -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/meshes
+[2.839s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/meshes/lidar_link.STL -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/meshes
+[2.839s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/meshes/left_d_camera.STL -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/meshes
+[2.839s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.840s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/config/mapper_params_online_async.yaml -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.840s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/config/joystick.yaml -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.840s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/config/cyclonedds_config.rviz -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.840s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/config/single_robot_conf.rviz -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.840s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/config/nav2_params.yaml -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.840s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/config/multi_robot_conf.rviz -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.840s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/config/twist_mux.yaml -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/config
+[2.841s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/calibration
+[2.841s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/calibration/front_camera_1080.yaml -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/calibration
+[2.841s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/calibration/front_camera_720.yaml -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/calibration
+[2.841s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib
+[2.841s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/libvoxel.wasm -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib
+[2.841s] creating /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.841s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/ice.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.842s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/py.typed -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.842s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/stun.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.842s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/mdns.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.842s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/utils.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.842s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/turn.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.842s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/candidate.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.842s] symbolically linking /home/krish/ros2_ws/build/go2_robot_sdk/external_lib/aioice/src/aioice/__init__.py -> /home/krish/ros2_ws/install/go2_robot_sdk/share/go2_robot_sdk/external_lib/aioice
+[2.939s] Invoked command in '/home/krish/ros2_ws/build/go2_robot_sdk' returned '0': AMENT_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krish/ros2_ws/install/go2_interfaces LD_LIBRARY_PATH=/home/krish/ros2_ws/install/go2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krish/ros2_ws/build/go2_robot_sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/go2_robot_sdk/lib/python3.10/site-packages:/home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/krish/ros2_ws/build/go2_robot_sdk/build --no-deps symlink_data

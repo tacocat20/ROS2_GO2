@@ -1,0 +1,1 @@
+/home/krish/ros2_ws/build/go2_interfaces/rosidl_generator_rs/go2_interfaces/rust/build.rs

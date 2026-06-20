@@ -1,0 +1,27 @@
+[1.189s] Invoking command in '/home/krish/ros2_ws/build/lidar_processor_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/obstacle_avoidance:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --build /home/krish/ros2_ws/build/lidar_processor_cpp -- -j6 -l6
+[1.258s] [ 50%] Built target lidar_to_pointcloud_node
+[1.263s] [100%] Built target pointcloud_aggregator_node
+[1.782s] Invoked command in '/home/krish/ros2_ws/build/lidar_processor_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/obstacle_avoidance:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --build /home/krish/ros2_ws/build/lidar_processor_cpp -- -j6 -l6
+[1.787s] Invoking command in '/home/krish/ros2_ws/build/lidar_processor_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/obstacle_avoidance:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --install /home/krish/ros2_ws/build/lidar_processor_cpp
+[1.795s] -- Install configuration: ""
+[1.796s] -- Execute custom install script
+[1.797s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/lib/lidar_processor_cpp/lidar_to_pointcloud_node
+[1.798s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/lib/lidar_processor_cpp/pointcloud_aggregator_node
+[1.798s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/include//lidar_processor_cpp/lidar_to_pointcloud_node.hpp
+[1.798s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/include//lidar_processor_cpp/pointcloud_aggregator_node.hpp
+[1.799s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/ament_index/resource_index/package_run_dependencies/lidar_processor_cpp
+[1.799s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/ament_index/resource_index/parent_prefix_path/lidar_processor_cpp
+[1.800s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/ament_prefix_path.sh
+[1.800s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/ament_prefix_path.dsv
+[1.801s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/path.sh
+[1.801s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/environment/path.dsv
+[1.801s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.bash
+[1.802s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.sh
+[1.802s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.zsh
+[1.803s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/local_setup.dsv
+[1.803s] -- Symlinking: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/package.dsv
+[1.813s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/ament_index/resource_index/packages/lidar_processor_cpp
+[1.814s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/cmake/lidar_processor_cppConfig.cmake
+[1.814s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/cmake/lidar_processor_cppConfig-version.cmake
+[1.815s] -- Up-to-date symlink: /home/krish/ros2_ws/install/lidar_processor_cpp/share/lidar_processor_cpp/package.xml
+[1.831s] Invoked command in '/home/krish/ros2_ws/build/lidar_processor_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/obstacle_avoidance:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --install /home/krish/ros2_ws/build/lidar_processor_cpp

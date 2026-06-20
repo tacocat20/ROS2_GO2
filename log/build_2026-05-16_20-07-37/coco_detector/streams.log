@@ -1,0 +1,21 @@
+[3.280s] Invoking command in '/home/krish/ros2_ws/src/coco_detector': PYTHONPATH=/home/krish/ros2_ws/build/coco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/coco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coco_detector build --build-base /home/krish/ros2_ws/build/coco_detector/build install --record /home/krish/ros2_ws/build/coco_detector/install.log --single-version-externally-managed install_data
+[3.771s] running egg_info
+[3.773s] writing ../../build/coco_detector/coco_detector.egg-info/PKG-INFO
+[3.778s] writing dependency_links to ../../build/coco_detector/coco_detector.egg-info/dependency_links.txt
+[3.779s] writing entry points to ../../build/coco_detector/coco_detector.egg-info/entry_points.txt
+[3.779s] writing requirements to ../../build/coco_detector/coco_detector.egg-info/requires.txt
+[3.779s] writing top-level names to ../../build/coco_detector/coco_detector.egg-info/top_level.txt
+[3.783s] reading manifest file '../../build/coco_detector/coco_detector.egg-info/SOURCES.txt'
+[3.785s] writing manifest file '../../build/coco_detector/coco_detector.egg-info/SOURCES.txt'
+[3.785s] running build
+[3.785s] running build_py
+[3.794s] running install
+[3.794s] running install_lib
+[3.798s] running install_data
+[3.798s] running install_egg_info
+[3.802s] removing '/home/krish/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[3.803s] Copying ../../build/coco_detector/coco_detector.egg-info to /home/krish/ros2_ws/install/coco_detector/lib/python3.10/site-packages/coco_detector-0.0.0-py3.10.egg-info
+[3.805s] running install_scripts
+[3.846s] Installing coco_detector_node script to /home/krish/ros2_ws/install/coco_detector/lib/coco_detector
+[3.848s] writing list of installed files to '/home/krish/ros2_ws/build/coco_detector/install.log'
+[3.950s] Invoked command in '/home/krish/ros2_ws/src/coco_detector' returned '0': PYTHONPATH=/home/krish/ros2_ws/build/coco_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krish/ros2_ws/install/coco_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/coco_detector build --build-base /home/krish/ros2_ws/build/coco_detector/build install --record /home/krish/ros2_ws/build/coco_detector/install.log --single-version-externally-managed install_data

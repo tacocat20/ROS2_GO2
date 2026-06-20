@@ -1,0 +1,659 @@
+[0.077s] Invoking command in '/home/krish/ros2_ws/build/go2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake /home/krish/ros2_ws/src/go2_interfaces -DCMAKE_INSTALL_PREFIX=/home/krish/ros2_ws/install/go2_interfaces
+[1.227s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.229s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.229s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.229s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.229s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.230s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.666s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.708s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.782s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.849s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.849s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.849s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.195s] -- Configuring done
+[3.568s] -- Generating done
+[3.615s] -- Build files have been written to: /home/krish/ros2_ws/build/go2_interfaces
+[3.649s] Invoked command in '/home/krish/ros2_ws/build/go2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake /home/krish/ros2_ws/src/go2_interfaces -DCMAKE_INSTALL_PREFIX=/home/krish/ros2_ws/install/go2_interfaces
+[3.653s] Invoking command in '/home/krish/ros2_ws/build/go2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --build /home/krish/ros2_ws/build/go2_interfaces -- -j6 -l6
+[3.762s] [  1%] Built target go2_interfaces__rs
+[3.775s] [  1%] Built target ament_cmake_python_symlink_go2_interfaces
+[3.791s] [  1%] Built target go2_interfaces__cpp
+[3.793s] [ 13%] Built target go2_interfaces__rosidl_generator_c
+[3.858s] [ 25%] Built target go2_interfaces__rosidl_typesupport_cpp
+[3.913s] [ 37%] Built target go2_interfaces__rosidl_typesupport_introspection_cpp
+[3.932s] [ 49%] Built target go2_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.967s] [ 61%] Built target go2_interfaces__rosidl_typesupport_c
+[3.985s] [ 73%] Built target go2_interfaces__rosidl_typesupport_fastrtps_c
+[3.989s] [ 85%] Built target go2_interfaces__rosidl_typesupport_introspection_c
+[4.013s] [ 85%] Built target go2_interfaces
+[4.038s] [ 85%] Built target go2_interfaces__py
+[4.105s] [ 97%] Built target go2_interfaces__rosidl_generator_py
+[4.154s] [ 98%] Built target go2_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.159s] [ 99%] Built target go2_interfaces__rosidl_typesupport_c__pyext
+[4.164s] [100%] Built target go2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.404s] running egg_info
+[4.413s] writing go2_interfaces.egg-info/PKG-INFO
+[4.413s] writing dependency_links to go2_interfaces.egg-info/dependency_links.txt
+[4.414s] writing top-level names to go2_interfaces.egg-info/top_level.txt
+[4.415s] reading manifest file 'go2_interfaces.egg-info/SOURCES.txt'
+[4.421s] writing manifest file 'go2_interfaces.egg-info/SOURCES.txt'
+[4.501s] [100%] Built target ament_cmake_python_build_go2_interfaces_egg
+[4.515s] Invoked command in '/home/krish/ros2_ws/build/go2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --build /home/krish/ros2_ws/build/go2_interfaces -- -j6 -l6
+[4.529s] Invoking command in '/home/krish/ros2_ws/build/go2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --install /home/krish/ros2_ws/build/go2_interfaces
+[4.540s] -- Install configuration: ""
+[4.543s] -- Execute custom install script
+[4.544s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/ament_index/resource_index/rosidl_interfaces/go2_interfaces
+[4.550s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/audio_data.h
+[4.550s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/bms_cmd.h
+[4.552s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/bms_state.h
+[4.553s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__functions.h
+[4.555s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__struct.h
+[4.555s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__type_support.h
+[4.555s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__functions.h
+[4.557s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__struct.h
+[4.557s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__type_support.h
+[4.557s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__functions.h
+[4.558s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__struct.h
+[4.558s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__type_support.h
+[4.559s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__functions.h
+[4.559s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__struct.h
+[4.562s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__type_support.h
+[4.562s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__functions.h
+[4.562s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__struct.h
+[4.562s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__type_support.h
+[4.562s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__functions.h
+[4.569s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__struct.h
+[4.569s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__type_support.h
+[4.569s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__functions.h
+[4.569s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__struct.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__type_support.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__functions.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__struct.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__type_support.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__functions.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__struct.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__type_support.h
+[4.570s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__functions.h
+[4.571s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__struct.h
+[4.571s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__type_support.h
+[4.571s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__functions.h
+[4.572s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__struct.h
+[4.573s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__type_support.h
+[4.573s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__functions.h
+[4.574s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__struct.h
+[4.574s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__type_support.h
+[4.575s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__functions.h
+[4.575s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__struct.h
+[4.576s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__type_support.h
+[4.576s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__functions.h
+[4.577s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__struct.h
+[4.578s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__type_support.h
+[4.579s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__functions.h
+[4.581s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__struct.h
+[4.581s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__type_support.h
+[4.581s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__functions.h
+[4.582s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__struct.h
+[4.582s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__type_support.h
+[4.583s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__functions.h
+[4.585s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__struct.h
+[4.585s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__type_support.h
+[4.585s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__functions.h
+[4.586s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__struct.h
+[4.588s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__type_support.h
+[4.588s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__functions.h
+[4.588s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__struct.h
+[4.588s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__type_support.h
+[4.590s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__functions.h
+[4.590s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__struct.h
+[4.590s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__type_support.h
+[4.591s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__functions.h
+[4.592s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__struct.h
+[4.593s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__type_support.h
+[4.594s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__functions.h
+[4.594s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__struct.h
+[4.594s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__type_support.h
+[4.595s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__functions.h
+[4.596s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__struct.h
+[4.596s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__type_support.h
+[4.597s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__functions.h
+[4.597s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__struct.h
+[4.598s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__type_support.h
+[4.609s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__functions.h
+[4.609s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__struct.h
+[4.609s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__type_support.h
+[4.609s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__functions.h
+[4.609s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__struct.h
+[4.609s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__type_support.h
+[4.610s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__functions.h
+[4.610s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__struct.h
+[4.610s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__type_support.h
+[4.610s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__functions.h
+[4.612s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__struct.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__type_support.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__functions.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__struct.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__type_support.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__functions.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__struct.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__type_support.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__functions.h
+[4.613s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__struct.h
+[4.614s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__type_support.h
+[4.615s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/error.h
+[4.616s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_cmd.h
+[4.617s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_front_video_data.h
+[4.618s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_move.h
+[4.620s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_rpy_cmd.h
+[4.621s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_state.h
+[4.621s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/height_map.h
+[4.622s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/imu.h
+[4.623s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/interface_config.h
+[4.625s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/lidar_state.h
+[4.626s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/low_cmd.h
+[4.627s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/low_state.h
+[4.628s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_cmd.h
+[4.629s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_cmds.h
+[4.630s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_state.h
+[4.630s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_states.h
+[4.631s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/path_point.h
+[4.632s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/req.h
+[4.632s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/res.h
+[4.633s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.634s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/sport_mode_cmd.h
+[4.634s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/sport_mode_state.h
+[4.635s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/time_spec.h
+[4.636s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/uwb_state.h
+[4.636s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/uwb_switch.h
+[4.637s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/voxel_height_map_state.h
+[4.637s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/voxel_map_compressed.h
+[4.638s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/web_rtc_req.h
+[4.638s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/wireless_controller.h
+[4.639s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/library_path.sh
+[4.640s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/library_path.dsv
+[4.643s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[4.644s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[4.644s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[4.645s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[4.645s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__rosidl_typesupport_fastrtps_c.h
+[4.646s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_c.h
+[4.646s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__rosidl_typesupport_fastrtps_c.h
+[4.647s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__rosidl_typesupport_fastrtps_c.h
+[4.647s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__rosidl_typesupport_fastrtps_c.h
+[4.648s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__rosidl_typesupport_fastrtps_c.h
+[4.648s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[4.649s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__rosidl_typesupport_fastrtps_c.h
+[4.650s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__rosidl_typesupport_fastrtps_c.h
+[4.650s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[4.651s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[4.652s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[4.652s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_c.h
+[4.653s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[4.653s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__rosidl_typesupport_fastrtps_c.h
+[4.654s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h
+[4.654s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__rosidl_typesupport_fastrtps_c.h
+[4.655s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__rosidl_typesupport_fastrtps_c.h
+[4.655s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_c.h
+[4.656s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_c.h
+[4.656s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__rosidl_typesupport_fastrtps_c.h
+[4.657s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__rosidl_typesupport_fastrtps_c.h
+[4.657s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_c.h
+[4.658s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__rosidl_typesupport_fastrtps_c.h
+[4.658s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__rosidl_typesupport_fastrtps_c.h
+[4.659s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__rosidl_typesupport_fastrtps_c.h
+[4.659s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_c.h
+[4.660s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.663s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/audio_data.hpp
+[4.663s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/bms_cmd.hpp
+[4.664s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/bms_state.hpp
+[4.665s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__builder.hpp
+[4.665s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__struct.hpp
+[4.666s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__traits.hpp
+[4.666s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__type_support.hpp
+[4.667s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__builder.hpp
+[4.668s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__struct.hpp
+[4.669s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__traits.hpp
+[4.673s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__type_support.hpp
+[4.674s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__builder.hpp
+[4.674s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__struct.hpp
+[4.675s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__traits.hpp
+[4.680s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__type_support.hpp
+[4.681s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__builder.hpp
+[4.681s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__struct.hpp
+[4.681s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__traits.hpp
+[4.682s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__type_support.hpp
+[4.683s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__builder.hpp
+[4.683s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__struct.hpp
+[4.685s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__traits.hpp
+[4.685s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__type_support.hpp
+[4.685s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__builder.hpp
+[4.685s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__struct.hpp
+[4.686s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__traits.hpp
+[4.687s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__type_support.hpp
+[4.687s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__builder.hpp
+[4.688s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__struct.hpp
+[4.688s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__traits.hpp
+[4.689s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__type_support.hpp
+[4.690s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__builder.hpp
+[4.690s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__struct.hpp
+[4.690s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__traits.hpp
+[4.691s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__type_support.hpp
+[4.691s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__builder.hpp
+[4.692s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__struct.hpp
+[4.693s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__traits.hpp
+[4.693s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__type_support.hpp
+[4.693s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__builder.hpp
+[4.694s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__struct.hpp
+[4.694s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__traits.hpp
+[4.695s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__type_support.hpp
+[4.695s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__builder.hpp
+[4.696s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__struct.hpp
+[4.696s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__traits.hpp
+[4.697s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__type_support.hpp
+[4.697s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__builder.hpp
+[4.698s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__struct.hpp
+[4.698s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__traits.hpp
+[4.699s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__type_support.hpp
+[4.700s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__builder.hpp
+[4.700s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__struct.hpp
+[4.700s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__traits.hpp
+[4.701s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__type_support.hpp
+[4.702s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__builder.hpp
+[4.703s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__struct.hpp
+[4.703s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__traits.hpp
+[4.703s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__type_support.hpp
+[4.703s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__builder.hpp
+[4.704s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__struct.hpp
+[4.705s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__traits.hpp
+[4.706s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__type_support.hpp
+[4.706s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__builder.hpp
+[4.707s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__struct.hpp
+[4.708s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__traits.hpp
+[4.708s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__type_support.hpp
+[4.709s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__builder.hpp
+[4.709s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__struct.hpp
+[4.710s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__traits.hpp
+[4.710s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__type_support.hpp
+[4.712s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__builder.hpp
+[4.712s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__struct.hpp
+[4.712s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__traits.hpp
+[4.712s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__type_support.hpp
+[4.713s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__builder.hpp
+[4.713s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__struct.hpp
+[4.714s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__traits.hpp
+[4.714s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__type_support.hpp
+[4.716s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__builder.hpp
+[4.716s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__struct.hpp
+[4.716s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__traits.hpp
+[4.716s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__type_support.hpp
+[4.717s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__builder.hpp
+[4.717s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__struct.hpp
+[4.718s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__traits.hpp
+[4.718s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__type_support.hpp
+[4.720s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__builder.hpp
+[4.720s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__struct.hpp
+[4.720s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__traits.hpp
+[4.722s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__type_support.hpp
+[4.722s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__builder.hpp
+[4.723s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__struct.hpp
+[4.724s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__traits.hpp
+[4.724s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__type_support.hpp
+[4.725s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__builder.hpp
+[4.725s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__struct.hpp
+[4.726s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__traits.hpp
+[4.726s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__type_support.hpp
+[4.727s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__builder.hpp
+[4.727s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__struct.hpp
+[4.728s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__traits.hpp
+[4.728s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__type_support.hpp
+[4.729s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__builder.hpp
+[4.729s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__struct.hpp
+[4.730s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__traits.hpp
+[4.730s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__type_support.hpp
+[4.732s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__builder.hpp
+[4.732s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__struct.hpp
+[4.733s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__traits.hpp
+[4.733s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__type_support.hpp
+[4.734s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__builder.hpp
+[4.734s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__struct.hpp
+[4.736s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__traits.hpp
+[4.736s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__type_support.hpp
+[4.736s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__builder.hpp
+[4.736s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__struct.hpp
+[4.737s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__traits.hpp
+[4.737s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__type_support.hpp
+[4.738s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__builder.hpp
+[4.738s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__struct.hpp
+[4.740s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__traits.hpp
+[4.740s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__type_support.hpp
+[4.745s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__builder.hpp
+[4.746s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__struct.hpp
+[4.746s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__traits.hpp
+[4.747s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__type_support.hpp
+[4.748s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/error.hpp
+[4.750s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_cmd.hpp
+[4.751s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_front_video_data.hpp
+[4.752s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_move.hpp
+[4.752s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_rpy_cmd.hpp
+[4.753s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/go2_state.hpp
+[4.753s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/height_map.hpp
+[4.754s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/imu.hpp
+[4.755s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/interface_config.hpp
+[4.755s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/lidar_state.hpp
+[4.756s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/low_cmd.hpp
+[4.757s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/low_state.hpp
+[4.757s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_cmd.hpp
+[4.758s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_cmds.hpp
+[4.758s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_state.hpp
+[4.759s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/motor_states.hpp
+[4.760s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/path_point.hpp
+[4.760s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/req.hpp
+[4.761s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/res.hpp
+[4.761s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.762s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/sport_mode_cmd.hpp
+[4.763s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/sport_mode_state.hpp
+[4.763s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/time_spec.hpp
+[4.764s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/uwb_state.hpp
+[4.764s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/uwb_switch.hpp
+[4.765s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/voxel_height_map_state.hpp
+[4.766s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/voxel_map_compressed.hpp
+[4.766s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/web_rtc_req.hpp
+[4.767s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/wireless_controller.hpp
+[4.770s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[4.770s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.772s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.772s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[4.773s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.774s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_cpp.hpp
+[4.775s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__rosidl_typesupport_fastrtps_cpp.hpp
+[4.775s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.776s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.777s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__rosidl_typesupport_fastrtps_cpp.hpp
+[4.777s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[4.778s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__rosidl_typesupport_fastrtps_cpp.hpp
+[4.778s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.780s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.781s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.781s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.782s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+[4.782s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.783s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__rosidl_typesupport_fastrtps_cpp.hpp
+[4.783s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp
+[4.785s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__rosidl_typesupport_fastrtps_cpp.hpp
+[4.785s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__rosidl_typesupport_fastrtps_cpp.hpp
+[4.786s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[4.788s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.788s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__rosidl_typesupport_fastrtps_cpp.hpp
+[4.788s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.789s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[4.794s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.794s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__rosidl_typesupport_fastrtps_cpp.hpp
+[4.794s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__rosidl_typesupport_fastrtps_cpp.hpp
+[4.794s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[4.794s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.795s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[4.797s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[4.797s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[4.797s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__rosidl_typesupport_introspection_c.h
+[4.798s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__rosidl_typesupport_introspection_c.h
+[4.798s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_c.h
+[4.799s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__rosidl_typesupport_introspection_c.h
+[4.800s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__rosidl_typesupport_introspection_c.h
+[4.801s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__rosidl_typesupport_introspection_c.h
+[4.801s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__rosidl_typesupport_introspection_c.h
+[4.801s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[4.802s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__rosidl_typesupport_introspection_c.h
+[4.803s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__rosidl_typesupport_introspection_c.h
+[4.803s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[4.804s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[4.804s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[4.806s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__rosidl_typesupport_introspection_c.h
+[4.807s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[4.807s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__rosidl_typesupport_introspection_c.h
+[4.807s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__rosidl_typesupport_introspection_c.h
+[4.808s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__rosidl_typesupport_introspection_c.h
+[4.808s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__rosidl_typesupport_introspection_c.h
+[4.809s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_c.h
+[4.809s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__rosidl_typesupport_introspection_c.h
+[4.810s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__rosidl_typesupport_introspection_c.h
+[4.818s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__rosidl_typesupport_introspection_c.h
+[4.818s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__rosidl_typesupport_introspection_c.h
+[4.818s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__rosidl_typesupport_introspection_c.h
+[4.818s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__rosidl_typesupport_introspection_c.h
+[4.818s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__rosidl_typesupport_introspection_c.h
+[4.818s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__rosidl_typesupport_introspection_c.h
+[4.819s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.819s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[4.819s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.820s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[4.821s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[4.821s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.822s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_cpp.hpp
+[4.822s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_move__rosidl_typesupport_introspection_cpp.hpp
+[4.824s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_rpy_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.824s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/go2_state__rosidl_typesupport_introspection_cpp.hpp
+[4.825s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/height_map__rosidl_typesupport_introspection_cpp.hpp
+[4.825s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[4.826s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/interface_config__rosidl_typesupport_introspection_cpp.hpp
+[4.828s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/lidar_state__rosidl_typesupport_introspection_cpp.hpp
+[4.828s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.828s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[4.828s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.830s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_cmds__rosidl_typesupport_introspection_cpp.hpp
+[4.830s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[4.832s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/motor_states__rosidl_typesupport_introspection_cpp.hpp
+[4.832s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp
+[4.832s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/req__rosidl_typesupport_introspection_cpp.hpp
+[4.832s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/res__rosidl_typesupport_introspection_cpp.hpp
+[4.833s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_cpp.hpp
+[4.834s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/sport_mode_state__rosidl_typesupport_introspection_cpp.hpp
+[4.834s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/time_spec__rosidl_typesupport_introspection_cpp.hpp
+[4.836s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_state__rosidl_typesupport_introspection_cpp.hpp
+[4.837s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/uwb_switch__rosidl_typesupport_introspection_cpp.hpp
+[4.837s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_height_map_state__rosidl_typesupport_introspection_cpp.hpp
+[4.837s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/voxel_map_compressed__rosidl_typesupport_introspection_cpp.hpp
+[4.838s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/web_rtc_req__rosidl_typesupport_introspection_cpp.hpp
+[4.840s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/include/go2_interfaces/go2_interfaces/msg/detail/wireless_controller__rosidl_typesupport_introspection_cpp.hpp
+[4.840s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/pythonpath.sh
+[4.840s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/pythonpath.dsv
+[4.841s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.843s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.843s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.843s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.846s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/__init__.py
+[4.846s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/_go2_interfaces_s.ep.rosidl_typesupport_c.c
+[4.847s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/_go2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.848s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/_go2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.850s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.853s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.853s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.853s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/libgo2_interfaces__rosidl_generator_py.so
+[4.854s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/__init__.py
+[4.854s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_audio_data.py
+[4.854s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_audio_data_s.c
+[4.854s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_bms_cmd.py
+[4.854s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_bms_cmd_s.c
+[4.855s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_bms_state.py
+[4.855s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_bms_state_s.c
+[4.855s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_error.py
+[4.855s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_error_s.c
+[4.856s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_cmd.py
+[4.856s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_cmd_s.c
+[4.857s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_front_video_data.py
+[4.858s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_front_video_data_s.c
+[4.858s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_move.py
+[4.859s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_move_s.c
+[4.859s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_rpy_cmd.py
+[4.860s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_rpy_cmd_s.c
+[4.860s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_state.py
+[4.861s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_go2_state_s.c
+[4.861s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_height_map.py
+[4.861s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_height_map_s.c
+[4.862s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_imu.py
+[4.862s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_imu_s.c
+[4.863s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_interface_config.py
+[4.863s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_interface_config_s.c
+[4.863s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_lidar_state.py
+[4.864s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_lidar_state_s.c
+[4.864s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_low_cmd.py
+[4.865s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_low_cmd_s.c
+[4.865s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_low_state.py
+[4.865s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_low_state_s.c
+[4.866s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_cmd.py
+[4.866s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_cmd_s.c
+[4.867s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_cmds.py
+[4.867s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_cmds_s.c
+[4.867s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_state.py
+[4.868s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_state_s.c
+[4.868s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_states.py
+[4.869s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_motor_states_s.c
+[4.869s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_path_point.py
+[4.870s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_path_point_s.c
+[4.870s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_req.py
+[4.870s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_req_s.c
+[4.871s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_res.py
+[4.872s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_res_s.c
+[4.872s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_sport_mode_cmd.py
+[4.872s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_sport_mode_cmd_s.c
+[4.872s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_sport_mode_state.py
+[4.873s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_sport_mode_state_s.c
+[4.873s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_time_spec.py
+[4.874s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_time_spec_s.c
+[4.874s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_uwb_state.py
+[4.875s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_uwb_state_s.c
+[4.875s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_uwb_switch.py
+[4.875s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_uwb_switch_s.c
+[4.876s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_voxel_height_map_state.py
+[4.876s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_voxel_height_map_state_s.c
+[4.877s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_voxel_map_compressed.py
+[4.877s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_voxel_map_compressed_s.c
+[4.877s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_web_rtc_req.py
+[4.878s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_web_rtc_req_s.c
+[4.878s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_wireless_controller.py
+[4.881s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg/_wireless_controller_s.c
+[4.882s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.882s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.882s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/go2_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.882s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/ament_index/resource_index/rust_packages/go2_interfaces
+[4.886s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/rust/Cargo.toml
+[4.886s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/rust/build.rs
+[4.886s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/rust/src/lib.rs
+[4.892s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/rust/src/msg.rs
+[4.895s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/rust/src/msg/rmw.rs
+[4.896s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2Cmd.idl
+[4.896s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2State.idl
+[4.896s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2Move.idl
+[4.896s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2RpyCmd.idl
+[4.896s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/IMU.idl
+[4.896s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/AudioData.idl
+[4.897s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/BmsCmd.idl
+[4.897s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/BmsState.idl
+[4.897s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Error.idl
+[4.897s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2FrontVideoData.idl
+[4.897s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/HeightMap.idl
+[4.898s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/InterfaceConfig.idl
+[4.898s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/LidarState.idl
+[4.902s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/LowCmd.idl
+[4.902s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/LowState.idl
+[4.902s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorCmd.idl
+[4.902s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorCmds.idl
+[4.903s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorState.idl
+[4.903s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorStates.idl
+[4.907s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/PathPoint.idl
+[4.908s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Req.idl
+[4.908s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Res.idl
+[4.908s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/SportModeCmd.idl
+[4.908s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/SportModeState.idl
+[4.909s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/TimeSpec.idl
+[4.910s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/UwbState.idl
+[4.914s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/UwbSwitch.idl
+[4.914s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/VoxelMapCompressed.idl
+[4.914s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/VoxelHeightMapState.idl
+[4.914s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/WebRtcReq.idl
+[4.914s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/WirelessController.idl
+[4.917s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2Cmd.msg
+[4.917s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2State.msg
+[4.918s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2Move.msg
+[4.918s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2RpyCmd.msg
+[4.918s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/IMU.msg
+[4.918s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/AudioData.msg
+[4.918s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/BmsCmd.msg
+[4.918s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/BmsState.msg
+[4.919s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Error.msg
+[4.920s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Go2FrontVideoData.msg
+[4.920s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/HeightMap.msg
+[4.921s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/InterfaceConfig.msg
+[4.922s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/LidarState.msg
+[4.922s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/LowCmd.msg
+[4.923s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/LowState.msg
+[4.923s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorCmd.msg
+[4.923s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorCmds.msg
+[4.924s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorState.msg
+[4.925s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/MotorStates.msg
+[4.925s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/PathPoint.msg
+[4.925s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Req.msg
+[4.926s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/Res.msg
+[4.926s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/SportModeCmd.msg
+[4.929s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/SportModeState.msg
+[4.930s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/TimeSpec.msg
+[4.930s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/UwbState.msg
+[4.932s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/UwbSwitch.msg
+[4.933s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/VoxelMapCompressed.msg
+[4.933s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/VoxelHeightMapState.msg
+[4.933s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/WebRtcReq.msg
+[4.933s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/msg/WirelessController.msg
+[4.934s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/ament_index/resource_index/package_run_dependencies/go2_interfaces
+[4.937s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/ament_index/resource_index/parent_prefix_path/go2_interfaces
+[4.937s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/ament_prefix_path.sh
+[4.937s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/ament_prefix_path.dsv
+[4.938s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/path.sh
+[4.939s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/environment/path.dsv
+[4.940s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.bash
+[4.941s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.sh
+[4.941s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.zsh
+[4.942s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/local_setup.dsv
+[4.942s] -- Symlinking: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/package.dsv
+[4.952s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/ament_index/resource_index/packages/go2_interfaces
+[4.953s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.954s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.954s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.955s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.958s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.958s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.958s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.959s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfacesConfig.cmake
+[4.960s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfacesConfig-version.cmake
+[4.961s] -- Up-to-date symlink: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/package.xml
+[4.963s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_generator_c.so
+[4.966s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.969s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.970s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_introspection_c.so
+[4.971s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_c.so
+[4.974s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.976s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_typesupport_cpp.so
+[5.062s] Listing '/home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces'...
+[5.063s] Compiling '/home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/__init__.py'...
+[5.063s] Listing '/home/krish/ros2_ws/install/go2_interfaces/local/lib/python3.10/dist-packages/go2_interfaces/msg'...
+[5.076s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/lib/libgo2_interfaces__rosidl_generator_py.so
+[5.077s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_generator_cExport.cmake
+[5.077s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.078s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.078s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.079s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_generator_cppExport.cmake
+[5.080s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.080s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.081s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.081s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.082s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cExport.cmake
+[5.082s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.083s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.083s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.085s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cppExport.cmake
+[5.085s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/go2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.085s] -- Up-to-date: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_generator_pyExport.cmake
+[5.086s] -- Installing: /home/krish/ros2_ws/install/go2_interfaces/share/go2_interfaces/cmake/export_go2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.091s] Invoked command in '/home/krish/ros2_ws/build/go2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/krish/ros2_ws/install/speech_processor:/home/krish/ros2_ws/install/lidar_processor:/home/krish/ros2_ws/install/go2_robot_sdk:/home/krish/ros2_ws/install/coco_detector:/opt/ros/humble /usr/local/bin/cmake --install /home/krish/ros2_ws/build/go2_interfaces
